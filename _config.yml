@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 十三点的窝
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
-timezone:
+author: Lamu Guo
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://lamuguo.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,3 +83,11 @@ deploy:
     github.com: git@github.com:lamuguo/lamuguo.github.io.git
   branch: master
 
+# Search (introduced by hexo-generator-search)
+search:
+  path: search.xml
+  field: post
+  content: true
+  
+sitemap:
+  path: sitemap.xml
