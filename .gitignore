@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+# Added by lamuguo@
+db.json
+public/
+.deploy_git/
